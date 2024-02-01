@@ -1,0 +1,93 @@
+/* Write your code here. */
+.result-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff33;
+  border: 2px solid #ffffff33;
+  border-radius: 15px;
+  padding: 15px 0px;
+  width: 90%;
+}
+
+@media screen and (min-width: 767px) {
+  .result-card-container {
+    width: 40%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px;
+  }
+}
+
+.result-image {
+  height: 200px;
+  width: 150px;
+}
+
+@media screen and (min-width: 767px) {
+  .result-image {
+    order: 1;
+    height: 400px;
+    width: 300px;
+  }
+}
+
+.score-results-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.result-text {
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+@media screen and (min-width: 767px) {
+  .result-text {
+    font-size: 3rem;
+  }
+}
+
+.result-score-text {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 767px) {
+  .result-score-text {
+    font-size: 2rem;
+  }
+}
+
+.result-score {
+  margin: 0px;
+  color: #6a59ff;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 767px) {
+  .result-score {
+    font-size: 2.2rem;
+  }
+}
+
+.play-again-btn {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #ffce27;
+  color: #3d3d3d;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.8rem;
+  font-size: 1rem;
+  font-weight: bold;
+}

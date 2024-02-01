@@ -1,0 +1,28 @@
+/* Write your code here. */
+.app-container {
+  font-family: 'Roboto';
+  background-image: linear-gradient(#9796f0, #fbc7d4);
+  min-height: 100vh;
+}
+
+.emoji-game-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1.5rem;
+  height: 80vh;
+}
+
+.emoji-list-container {
+  list-style-type: none;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 767px) {
+  .emoji-list-container {
+    width: 50%;
+  }
+}
